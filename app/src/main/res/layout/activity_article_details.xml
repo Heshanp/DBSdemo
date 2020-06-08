@@ -19,13 +19,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="12dp"
         android:layout_below="@id/article_detail_avatar">
 
         <TextView
             android:id="@+id/article_full_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Full Description" />
     </ScrollView>
