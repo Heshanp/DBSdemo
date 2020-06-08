@@ -3,15 +3,10 @@ package com.heshan.dbsdemo.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.heshan.dbsdemo.R
-import com.heshan.dbsdemo.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-
+class ArticleDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val binding = ActivityMainBinding.inflate(layoutInflater)
-
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_article_details)
     }
 }
