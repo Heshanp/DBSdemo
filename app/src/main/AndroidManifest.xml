@@ -15,7 +15,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
-        <activity android:name=".view.ArticleDetailsActivity"></activity>
+        <activity android:name=".view.ArticleDetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ArticlesActivity" />
+        </activity>
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.ArticlesActivity">
             <intent-filter>

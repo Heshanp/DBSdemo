@@ -1,6 +1,9 @@
 package com.heshan.dbsdemo.network.model
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class ArticleItem(
     @SerializedName("avatar")
     val avatar: String,
@@ -12,4 +15,4 @@ data class ArticleItem(
     val shortDescription: String,
     @SerializedName("title")
     val title: String
-)
+) : Parcelable

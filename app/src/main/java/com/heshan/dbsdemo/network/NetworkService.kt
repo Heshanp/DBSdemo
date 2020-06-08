@@ -1,6 +1,7 @@
 package com.heshan.dbsdemo.network
 
 import com.heshan.dbsdemo.network.model.Article
+import com.heshan.dbsdemo.network.model.ArticleDetail
 import com.heshan.dbsdemo.network.model.ArticleItem
 import retrofit2.Call
 import retrofit2.http.GET
@@ -17,6 +18,6 @@ interface NetworkService {
     @GET("api/visitormanagement/article")
     fun getAllArticles(): Call<Article>
 
-    @GET("article/{id}")
-    fun getArticleDetails(@Path("id") articleId: Int): Call<ArticleItem>
+    @GET("api/visitormanagement/articleid/{id}")
+    fun getArticleDetails(@Path("id") articleId: Int): Call<ArticleDetail>
 }

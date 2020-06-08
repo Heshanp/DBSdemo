@@ -38,8 +38,7 @@ class ArticlesAdapter ( private val context: Context) :
         }
         holder.root.setOnClickListener {
             val intent = Intent(context, ArticleDetailsActivity::class.java)
-            intent.putExtra("Id", item.id)
-            intent.putExtra("name", item.title)
+            intent.putExtra("Article", item)
             context.startActivity(intent)
         }
     }
