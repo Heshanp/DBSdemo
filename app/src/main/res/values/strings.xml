@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">DBSdemo</string>
     <string name="menu_edit">Edit</string>
-    <string name="menu_cancel">Edit</string>
-    <string name="retry">Edit</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="retry">Retry</string>
     <string name="Oops">Oops!</string>
     <string name="Ok">Ok</string>
 </resources>
