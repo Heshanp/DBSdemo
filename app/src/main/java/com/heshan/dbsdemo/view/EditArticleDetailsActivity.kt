@@ -42,7 +42,6 @@ class EditArticleDetailsActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle item selection
         return when (item.itemId) {
             R.id.ae_menu -> {
                 showConfirmation()

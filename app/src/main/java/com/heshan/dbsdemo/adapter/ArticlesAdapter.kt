@@ -14,8 +14,9 @@ import kotlinx.android.synthetic.main.article_rv_item.view.*
 import org.threeten.bp.Instant
 import org.threeten.bp.LocalDateTime
 import org.threeten.bp.ZoneId
+import javax.inject.Inject
 
-class ArticlesAdapter ( private val context: Context) :
+class ArticlesAdapter @Inject constructor (private val context: Context) :
     RecyclerView.Adapter<ArticlesAdapter.ViewHolder>() {
     private var list: Article = Article()
 

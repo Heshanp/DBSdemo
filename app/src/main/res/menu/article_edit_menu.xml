@@ -3,6 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/ae_menu"
-        android:title="Cancel"
+        android:title="@string/menu_cancel"
         app:showAsAction="ifRoom" />
 </menu>

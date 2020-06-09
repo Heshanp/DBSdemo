@@ -26,8 +26,15 @@
             android:id="@+id/article_full_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Full Description" />
+            android:layout_marginTop="10dp" />
     </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/article_detail_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:visibility="visible" />
 
 </RelativeLayout>
